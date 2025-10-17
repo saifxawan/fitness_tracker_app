@@ -3,6 +3,9 @@
 git clone https://github.com/flutter/flutter.git -b stable
 export PATH="$PATH:`pwd`/flutter/bin"
 
+# Verify Flutter install
+flutter --version
+
 # Get dependencies
 flutter pub get
 
